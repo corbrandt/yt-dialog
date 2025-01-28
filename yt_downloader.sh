@@ -2,7 +2,7 @@
 
 # Check if dialog is installed
 if ! command -v dialog &> /dev/null; then
-  echo "The tool 'dialog' is not installed. Please install it using 'sudo apt install dialog'."
+  echo "The tool 'dialog' is not installed. Please install."
   exit 1
 fi
 
