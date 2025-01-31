@@ -2,14 +2,15 @@
 
 A simple, beginner-friendly shell script that allows you to download YouTube videos using `yt-dlp` with a `dialog`-based user interface, including a working progress bar.
 
-![Screenshot_20250128_145853](https://github.com/user-attachments/assets/ad636e15-f54d-4fed-9d9c-5c81038e9f59)
-
 ## Features
 - **User-friendly text-based interface** powered by `dialog`
 - **Download as MP4 or Stream** using `yt-dlp`
 - **Real-time progress bar** showing download percentage
 - **Option to specify filename**
 - **Saves downloads in `~/Downloads`** by default
+
+## Screenshot
+![Screenshot_20250128_145853](https://github.com/user-attachments/assets/ad636e15-f54d-4fed-9d9c-5c81038e9f59)
 
 ## Prerequisites
 Before running the script, make sure you have the following installed:
@@ -23,7 +24,7 @@ sudo apt install yt-dlp
 
 If you are using another Linux distribution:
 - **Arch Linux:** `sudo pacman -S dialog yt-dlp`
-- **MacOS (Homebrew):** `brew install dialog yt-dlp`
+- **Fedora:** `sudo dnf install dialog yt-dlp`
 
 ## Installation & Setup
 1. **Download the script**

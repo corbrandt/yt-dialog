@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# This script provides a text-based interface for downloading YouTube videos
+# with yt-dlp. Users can select download formats (MP4 or Stream), specify
+# filenames, and track the download progress in real-time.
+# Author: Cornelius Brandt
+
 # Check if dialog is installed
 if ! command -v dialog &> /dev/null; then
   echo "The tool 'dialog' is not installed. Please install."
